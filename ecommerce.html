@@ -16,6 +16,15 @@
             border-radius: 5px;
             border-style: outset;
         }
+        .table--normal {
+            width: 100%;
+        }
+        .td--width30percent {
+            width: 30%;
+        }
+        .td--width70percent {
+            width: 70%;
+        }
     </style>
 </head>
 <body>
@@ -33,13 +42,13 @@
                 </ul>
             </nav>
         </aside>
-        <section>
+        <div>
             <button type="button">Sign in</button>
             <button type="button">Create account</button>
             <button type="button">CAD</button>
             <button type="button">Search</button>
             <button type="button">Cart</button>
-        </section>
+        </div>
         <aside>
             <nav>
                 <ul>
@@ -53,10 +62,10 @@
         <h1>New Arrivals</h1>
         <p>Checkout out the lastest release of Basic Tees, new and improved with four openings!</p>
     </section>
-    <section>
-        <table width="100%" cellspacing="0" cellpading="5">
+    <div>
+        <table class="table--normal">
             <tr>
-                <td width="30%">
+                <td class="td--width30percent">
                     <section>
                         <h3>Color</h3>
                         <div>
@@ -88,8 +97,8 @@
                     <section>
                         <h3>Category</h3>
                         <div>
-                            <input type="checkbox" id="All New Arrivals" name="All New Arrivals">
-                            <label for="All New Arrivals">All New Arrivals</label>
+                            <input type="checkbox" id="AllNewArrivals" name="AllNewArrivals">
+                            <label for="AllNewArrivals">All New Arrivals</label>
                         </div>
                         <div>
                             <input type="checkbox" id="Tees" name="Tees">
@@ -104,8 +113,8 @@
                             <label for="Sweatshirts">Sweatshirts</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="Pants & Shorts" name="Pants & Shorts">
-                            <label for="Pants & Shorts">Pants & Shorts</label>
+                            <input type="checkbox" id="Pants&Shorts" name="Pants&Shorts">
+                            <label for="Pants&Shorts">Pants & Shorts</label>
                         </div>
                     </section>
                     <p></p>
@@ -137,13 +146,13 @@
                         </div>
                     </section>
                 </td>
-                <td width="70%">
+                <td class="td--width70percent">
                     <table>
                         <tr>
                             <td>
                                 <article class="article--bordered">
                                     <figure>
-                                        <img alt="8 T-shirts">
+                                        <img src="#" alt="8 T-shirts">
                                     </figure>
                                     <h3>Basic Tee 8-Pack</h3>
                                     <p>Get the full lineup of our Basic Tees.</p>
@@ -155,7 +164,7 @@
                             <td>
                                 <article class="article--bordered">
                                     <figure>
-                                        <img alt="Black T-shirt">
+                                        <img src="#" alt="Black T-shirt">
                                     </figure>
                                     <h3>Basic Tee</h3>
                                     <p>Look like a visionary CEO and wear the same black t-shirt every day.</p>
@@ -167,7 +176,7 @@
                             <td>
                                 <article class="article--bordered">
                                     <figure>
-                                        <img alt="White T-shirt">
+                                        <img src="#" alt="White T-shirt">
                                     </figure>
                                     <h3>Kinda White Basic Tee</h3>
                                     <p>It's probably, like, 5000 Kelvin instead of 60000 K.</p>
@@ -181,7 +190,7 @@
                             <td>
                                 <article class="article--bordered">
                                     <figure>
-                                        <img alt="Charcoal T-shirt">
+                                        <img src="#" alt="Charcoal T-shirt">
                                     </figure>
                                     <h3>Stone Basic Tee</h3>
                                     <p>Get the full lineup of our Basic Tees.</p>
@@ -193,7 +202,7 @@
                             <td>
                                 <article class="article--bordered">
                                     <figure>
-                                        <img alt="3 T-shirts">
+                                        <img src="#" alt="3 T-shirts">
                                     </figure>
                                     <h3>Fall Basic Tee 3-Pack</h3>
                                     <p>Look like a visionary CEO and wear the same black t-shirt every day.</p>
@@ -205,7 +214,7 @@
                             <td>
                                 <article class="article--bordered">
                                     <figure>
-                                        <img alt="3 T-shirts">
+                                        <img src="#" alt="3 T-shirts">
                                     </figure>
                                     <h3>Linework Artwork Tee 3-pack</h3>
                                     <p>It's probably, like, 5000 Kelvin instead of 60000 K.</p>
@@ -219,10 +228,10 @@
                 </td>
             </tr>
         </table>
-    </section>
+    </div>
     <footer>
         <p></p>
-        <table width="100%" cellspacisg="0" cellpading="5">
+        <table class="table--normal">
             <tr>
                 <td>
                     <h4>Products</h4>
