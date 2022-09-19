@@ -5,24 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .nav--centered {
+            text-align: center;
+        }
+        ul {
+            background-color: gainsboro;
+            border: 10px;
+            border-radius: 5px;
+            border-color: black;
+            border-style: outset;
+            border-width: 2px;
+        }
+        li {
+            display: inline;
+        }
+        li+li::before {
+            padding: 8px;
+            color: black;
+            content: ">";
+        }
+    </style>
 </head>
 <body>
     <aside>
-        <nav>
-            <ol>
-                <li><a href="google.com">Home</a></li>
-                <li><a href="google.com">Project</a></li>
-                <li><a href="google.com">Project Nero</a></li>
-            </ol>
+        <nav class="nav--centered">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Project Nero</a></li>
+            </ul>
         </nav>
         <nav>
             <ul>
-                <li><a href="google.com">Dashboard</a></li>
-                <li><a href="google.com">Team</a></li>
-                <li><a href="google.com">Projects</a></li>
-                <li><a href="google.com">Calendar</a></li>
-                <li><a href="google.com">Documents</a></li>
-                <li><a href="google.com">Reports</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Project Nero</a></li>
             </ul>
         </nav>
     </aside>
